@@ -1,0 +1,69 @@
+{
+	"hostName": "nginx",
+	"networkInterfaces": {
+		"lo": [
+			{
+				"address": "127.0.0.1",
+				"netmask": "255.0.0.0",
+				"family": "IPv4",
+				"mac": "00:00:00:00:00:00",
+				"internal": true
+			},
+			{
+				"address": "::1",
+				"netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+				"family": "IPv6",
+				"mac": "00:00:00:00:00:00",
+				"scopeid": 0,
+				"internal": true
+			}
+		],
+		"eth0": [
+			{
+				"address": "10.23.18.23",
+				"netmask": "255.255.192.0",
+				"family": "IPv4",
+				"mac": "ea:be:5f:f2:54:d9",
+				"internal": false
+			},
+			{
+				"address": "10.20.30.40",
+				"netmask": "255.255.0.0",
+				"family": "IPv4",
+				"mac": "ea:be:5f:f2:54:d9",
+				"internal": false
+			},
+			{
+				"address": "fe80::e8be:5fff:fef2:54d9",
+				"netmask": "ffff:ffff:ffff:ffff::",
+				"family": "IPv6",
+				"mac": "ea:be:5f:f2:54:d9",
+				"scopeid": 2,
+				"internal": false
+			}
+		]
+	},
+	"CPUs": [
+		{
+			"model": "Intel(R) Xeon(R) CPU E5-2630L v2 @ 2.40GHz",
+			"speed": 2399,
+			"times": {
+				"user": 12744000,
+				"nice": 979400,
+				"sys": 9982000,
+				"idle": 11046946000,
+				"irq": 0
+			}
+		}
+	],
+	"osPlatform": "linux",
+	"osRelease": "4.4.0-93-generic",
+	"cpuCount": 1,
+	"freeMem": 66.74609375,
+	"totalMem": 488.328125,
+	"freeMemPercentage": 0.13668287844366941,
+	"sysUptime": 1109327,
+	"loadAvg1": 0.08740234375,
+	"loadAvg5": 0.02783203125,
+	"loadAvg15": 0.00732421875
+}
